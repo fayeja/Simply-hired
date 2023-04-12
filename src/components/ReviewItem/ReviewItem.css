@@ -1,0 +1,26 @@
+.review img {
+  width: 120px;
+  height: 120px;
+  margin-right: 2rem;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  width: 1320px;
+  height: 250px;
+  padding: 2rem;
+  margin: 5rem;
+}
+.job-description{
+  padding-right: 40rem;
+}
+.btn1{
+  margin-right: 5px;
+  border: 2px solid #a78eec;
+}
+
+.btn2{
+  margin-bottom: 10px;
+  border: 2px solid #a78eec;
+}

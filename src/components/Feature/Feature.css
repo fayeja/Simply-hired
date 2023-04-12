@@ -1,0 +1,30 @@
+.feature img {
+  width: 116.69px;
+  height: 40px;
+}
+.feature h5 {
+  margin-top: 10px;
+}
+.feature{
+    width: 400px;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    text-align: start;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.btnOne button{
+   border: 2px solid #a78eec;
+   margin-right: 5px;
+}
+
+.btnTwo{
+    background-color: #a78eec;
+    color: white;
+}
+.locationSalary{
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+}

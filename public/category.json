@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "logo": "https://64338706dc4a9a367b1002d5--2e0511b8-a49f-462f-ab10-e300bc21477c.netlify.app/accounts%201.png",
+    "name": "Marketing",
+    "jobs_available": 75 
+  },
+  {
+    "id": 2,
+    "logo": "https://64338706dc4a9a367b1002d5--2e0511b8-a49f-462f-ab10-e300bc21477c.netlify.app/business%201.png",
+    "name": "Engineering",
+    "jobs_available": 50
+  },
+  {
+    "id": 3,
+    "logo": "https://64338706dc4a9a367b1002d5--2e0511b8-a49f-462f-ab10-e300bc21477c.netlify.app/social-media%201.png",
+    "name": "Finance",
+    "jobs_available": 30
+  },
+  {
+    "id": 4,
+    "logo": "https://64338706dc4a9a367b1002d5--2e0511b8-a49f-462f-ab10-e300bc21477c.netlify.app/chip%201.png",
+    "name": "Customer Service",
+    "jobs_available": 25
+  }
+]

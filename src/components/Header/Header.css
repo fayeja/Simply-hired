@@ -1,0 +1,29 @@
+.header nav a{
+     margin-left: 42px;
+     color: black;
+     text-decoration: none;
+}
+.header nav a:hover{
+     color: #a78eec;
+}
+.header nav{
+    margin: 2rem 2rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto 10rem;  
+}
+.header h3{
+    font-weight: bold;
+}
+.ApplyButton{
+    background-color: #a78eec;
+    color: white;
+    margin-left: 5rem;
+}
+.headerMain{
+    background-color: #d8d3e5;
+    place-items: center;
+}

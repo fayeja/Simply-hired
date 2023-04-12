@@ -1,0 +1,21 @@
+.oneStep {
+  width: 411px;
+  height: 560px;
+  padding-top: 148px;
+  margin-left: 148px;
+}
+.oneStep button{
+  background-color: #a78eec;
+}
+.Header2ndPart img {
+  width: 816px;
+  height: 744px;
+}
+.Header2ndPart{
+    display: flex;
+    background-color: #d8d3e5;
+    place-items: center;
+}
+.dreamJob{
+    color: #6c55ac;
+}

@@ -1,0 +1,5 @@
+.category{
+    display: flex;
+    margin: 2rem 20rem;
+    gap: 30px;
+}

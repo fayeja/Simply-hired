@@ -1,0 +1,6 @@
+.FeaturedJobs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2rem 20rem;
+    gap: 30px;
+}

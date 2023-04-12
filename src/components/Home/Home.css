@@ -1,0 +1,14 @@
+.Home{
+    text-align: center;
+}
+
+.list{
+    margin-top: 5rem;
+}
+.btn{
+    background-color: #a78eec;
+    color: white;
+}
+.btn-none{
+    display: none;
+}

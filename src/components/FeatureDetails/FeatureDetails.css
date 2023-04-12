@@ -1,0 +1,31 @@
+.featureDetail {
+  display: flex;
+  gap: 2rem;
+  width: 1321px;
+  height: 550px;
+  margin: 10rem;
+}
+.jobDescription{
+}
+.jobDescription p{
+    margin-bottom: 2rem;
+}
+.cartDescription {
+  width: 424px;
+  height: 461px;
+  background-color: #d8d3e5;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.cartDescription h5{
+    margin-bottom: 2rem;
+}
+
+.Button {
+  background-color: #a78eec;
+  color: white;
+  width: 425px;
+  height: 65px;
+}

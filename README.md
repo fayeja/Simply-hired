@@ -1,4 +1,5 @@
-#The SimplyHired project is a user friendly project which based on hiring employee based on their qualification. 
+ # Simply-hired
+ # The SimplyHired project is a user friendly project which based on hiring employee based on their qualification. 
 
 A list of feature of my SimplyHired project-
 * job cards containing all the information about the job.
@@ -14,4 +15,4 @@ A list of feature of my SimplyHired project-
 
 Live link:https://thriving-swan-8daf78.netlify.app/
 
- # Simply-hired
+

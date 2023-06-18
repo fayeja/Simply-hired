@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "./Header1stPart.css";
 
 const Header1stPart = () => {
@@ -9,11 +10,11 @@ const Header1stPart = () => {
   };
   return (
     <div className="header">
-      <h3 onClick={handleGoBack}>SimplyHired</h3>
+      <Link> <h3 onClick={handleGoBack} >SimplyHired</h3></Link>
       <nav>
-        <a to="/statistic">Statistics</a>
-        <a to="/applied_job">Applied Jobs</a>
-        <a to="/blog">Blog</a>
+        <Link to="/statistic">Statistics</Link>
+        <Link to="/applied_job">Applied Jobs</Link>
+        <Link to="/blog">Blog</Link>
       </nav>
       <button className="ApplyButton">Start Applying</button>
     </div>

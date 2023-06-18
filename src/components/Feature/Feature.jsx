@@ -1,5 +1,5 @@
 import React from "react";
-import ReviewItem from "../ReviewItem/ReviewItem";
+import { Link } from "react-router-dom";
 import './Feature.css'
 
 const Feature = ({ item }) => {
@@ -11,7 +11,7 @@ const Feature = ({ item }) => {
     remote_or_onsite,
     fulltime_or_parttime,
     location,
-    salary,
+    salary
   } = item;
   return (
     <div className="feature">
@@ -26,8 +26,9 @@ const Feature = ({ item }) => {
         <p>{location}</p>
         <p>{salary}</p>
       </div>
-      <a to={`/item/${id}`}
-      ><button className="btnTwo" >View Details</button></a>
+      <Link to={`/item/${id}`}
+      ><button className="btnTwo" >View Details</button></Link>
+      
     </div>
   );
 };

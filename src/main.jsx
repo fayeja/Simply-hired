@@ -14,17 +14,18 @@ import Main from "./components/Main/Main";
 import FeatureDetails from "./components/FeatureDetails/FeatureDetails";
 import Feature from "./components/Feature/Feature";
 import loader from "./components/loader";
-
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage />,
       children: [
       {
         path: "/",
         element: <Home></Home>,
-        loader:()=>fetch('/public/category.json'),
+        loader:()=>fetch('category.json'),
       },
       {
         path: "/statistic",
@@ -41,12 +42,13 @@ const router = createBrowserRouter([
       {
         path: "/item/:featureId",
         element: <FeatureDetails></FeatureDetails>,
-        loader:({params})=>fetch(`/public/feature.json`),
+        loader:({params})=>fetch(`/feature.json`),
       },
       {
         path: "/applied_job",
         element: <AppliedJobs></AppliedJobs>,
-        loader: loader,
+        loader:({params})=>fetch(`/feature.json`),
+        // loader: loader,
       },
       {
         path: "/blog",

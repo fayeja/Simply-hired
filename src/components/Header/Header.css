@@ -7,13 +7,13 @@
      color: #a78eec;
 }
 .header nav{
-    margin: 2rem 2rem;
+    margin: 2rem auto;
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:auto 10rem;  
+    margin: auto 10rem;  
 }
 .header h3{
     font-weight: bold;
@@ -21,7 +21,6 @@
 .ApplyButton{
     background-color: #a78eec;
     color: white;
-    margin-left: 5rem;
 }
 .headerMain{
     background-color: #d8d3e5;
